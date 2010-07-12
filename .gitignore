@@ -1,0 +1,11 @@
+.sqlite3
+log/*
+tmp/**/*
+.DS_Store
+doc/
+doc/**/*
+coverage/*
+app/views/taglibs/auto/**/*.dryml
+app/views/taglibs/auto/**/**/*.dryml
+public/system/**/*
+

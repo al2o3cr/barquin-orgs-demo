@@ -1,0 +1,9 @@
+<show-page>
+  <after-field-list:>
+    <h2>Partners</h2>
+    <table fields="name, partner_flag, active" with="&this.organizations.partner" />
+    <h2>Active</h2>
+    <collection with="&this.organizations.active" />
+    
+  </after-field-list:>
+</show-page>
